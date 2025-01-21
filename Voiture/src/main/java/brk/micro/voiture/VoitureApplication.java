@@ -19,7 +19,7 @@ public class VoitureApplication {
 
     @Value("${app.client.port}")
     private String port;
-
+//fndblkbnfklbnlktrntrlnhlkrlktnlkjtnkl
     public String getFullUrl() {
         return "http://" + host + ":" + port + "/Client";
     }
